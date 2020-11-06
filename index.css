@@ -94,6 +94,12 @@ input::placeholder{
     font-family: 'Poppins';
     color:var(--second);
 }
+button{
+    transition: .4s;
+}
+button:active{
+    transform: translateY(-4px);
+}
 .upload-wrapper{
     position: relative;
 }
